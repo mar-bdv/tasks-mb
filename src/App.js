@@ -6,7 +6,7 @@ function App() {
     <div>
       <div className='all-items'>
         <div className='container'>
-          <h1>My tasks</h1>
+          <h1>My tasks </h1>
         </div>
           <Tasks />
       </div>
