@@ -39,7 +39,7 @@ export class Tasks extends Component{
         li.forEach(item => {
             item.classList.toggle('done');
         })
-        li.classList.toggle('done');
+        
         console.log(li)
         // li.forEach((index)=>{
         //     ;
