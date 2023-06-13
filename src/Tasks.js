@@ -36,7 +36,7 @@ export class Tasks extends Component{
 
     doneWord(){
         const li = document.querySelectorAll(".li")
-        li.forEach(item () => {
+        li.forEach(item => {
             item.classList.toggle('done');
         })
         li.classList.toggle('done');
