@@ -35,7 +35,7 @@ export class Tasks extends Component{
     }
 
     doneWord(){
-        const li = document.querySelector(".li")
+        const li = document.querySelectorAll(".li")
 
         li.classList.toggle('done');
         console.log(li)
